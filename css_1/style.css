@@ -1,0 +1,119 @@
+body{
+	background-color:lightgray;
+}
+h1{
+	text-align:center;
+}
+div.img-1{
+	margin:6px;
+	border:3px dashed pink;
+	float:left;
+	width:20%;
+	filter: blur(3px);
+	text-align:center;
+}
+div.img-1 img{
+	 width: 100%;
+    height: auto;
+}
+div.img-1:hover{
+	filter: blur(0px);
+}
+div.img-2{
+	margin:6px;
+	border:3px dotted black;
+	float:left;
+	width:20%;
+	filter: hue-rotate(120deg);
+	text-align:center;
+}
+div.img-2 img{
+	 width: 100%;
+    height: auto;
+}
+div.img-2:hover{
+	filter: hue-rotate(0deg);
+}
+div.img-3{
+	margin: 5px;
+    border: 3px groove yellow;
+    float: left;
+    width: 20%;
+    filter: brightness(250%);
+    text-align: center;
+}
+}
+div.img-3 img{
+	 width: 100%;
+    height: auto;
+}
+div.img-3:hover{
+	filter: brightness(100%);
+}
+div.img-4{
+	margin:6px;
+	border:4px ridge orange;
+	float:left;
+	width:18.5%;
+	filter: grayscale(100%);
+	text-align:center;
+}
+div.img-4 img{
+	 width: 100%;
+    height: auto;
+}
+div.img-4:hover{
+	filter: grayscale(0%);
+}
+div.img-5{
+	margin:6px;
+	border:5px dotted blue;
+	position:absolute;
+	top:47%;
+	left:27%;
+	width:18.7%;
+	filter: saturate(800%);
+	text-align:center;
+	color:red;
+}
+div.img-5 img{
+	 width: 100%;
+    height: auto;
+}
+div.img-5:hover{
+	filter: saturate(100%);
+}
+div.img-6{
+	margin:6px;
+	border:5px dashed green;
+	position: absolute;
+   top:47%;
+   left: 0.6%;
+	width:20%;
+	filter: invert(250%);
+	text-align:center;
+}
+div.img-6 img{
+	 width: 100%;
+    height: auto;
+}
+div.img-6:hover{
+	filter: invert(0%);
+}
+div.img-7{
+	margin:6px;
+	border:5px groove red;
+	position: absolute;
+    top: 47%;
+    left: 47.5%;
+	width:20%;
+	filter: sepia(120%);
+	text-align:center;
+}
+div.img-7 img{
+	 width: 100%;
+    height: auto;
+}
+div.img-7:hover{
+	filter: sepia(0%);
+}
